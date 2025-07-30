@@ -30,6 +30,13 @@ import mohabat from './assets/Recipes/Desert/mohabat.png';
 import orangeicecreame from './assets/Recipes/Desert/orangeicecreame.png';
 
 const foodItems = [
+  
+  { name: 'Bhagiya', image: bhagiya, category: 'Lunch', restaurant: 'Ahmadavadi Tava Fry', price: 45, location: 'Sayajigunj' },
+  { name: 'Kachori', image: kachori, category: 'Lunch', restaurant: 'Rajwadi', price: 30, location: 'Wagodiya' },
+  { name: 'Paneer Roll', image: paneerroll, category: 'Lunch', restaurant: 'Chacha Bombay Wala', price: 50, location: 'Alkapuri' },
+  { name: 'Panipuri', image: panipuri, category: 'Lunch', restaurant: 'Bapu Ka Ragda', price: 20, location: 'Gotri' },
+  { name: 'Pasta', image: pasta, category: 'Lunch', restaurant: 'Eagle Chinese', price: 70, location: 'Gotri' },
+  { name: 'Samosa', image: samosa, category: 'Lunch', restaurant: 'Ahmadavadi Tava Fry', price: 25, location: 'Gorwa' },
   { name: 'Chai', image: chai, category: 'Breakfast', restaurant: 'Bapu Ka Ragda', price: 15, location: 'Alkapuri' },
   { name: 'Coffee', image: coffee, category: 'Breakfast', restaurant: 'Chacha Bombay Wala', price: 25, location: 'Gorwa' },
   { name: 'Combo', image: combo, category: 'Breakfast', restaurant: 'Ajays', price: 50, location: 'Sama' },
@@ -40,13 +47,6 @@ const foodItems = [
   { name: 'Momos', image: momos, category: 'Breakfast', restaurant: 'Street Wok', price: 60, location: 'Sama' },
   { name: 'Sandwich', image: sandwich, category: 'Breakfast', restaurant: 'Taj Chat Wala', price: 35, location: 'Gotri' },
   { name: 'Toasted Egg', image: toastedegg, category: 'Breakfast', restaurant: 'Bombay Biryani', price: 30, location: 'Gorwa' },
-
-  { name: 'Bhagiya', image: bhagiya, category: 'Lunch', restaurant: 'Ahmadavadi Tava Fry', price: 45, location: 'Sayajigunj' },
-  { name: 'Kachori', image: kachori, category: 'Lunch', restaurant: 'Rajwadi', price: 30, location: 'Wagodiya' },
-  { name: 'Paneer Roll', image: paneerroll, category: 'Lunch', restaurant: 'Chacha Bombay Wala', price: 50, location: 'Alkapuri' },
-  { name: 'Panipuri', image: panipuri, category: 'Lunch', restaurant: 'Bapu Ka Ragda', price: 20, location: 'Gotri' },
-  { name: 'Pasta', image: pasta, category: 'Lunch', restaurant: 'Eagle Chinese', price: 70, location: 'Gotri' },
-  { name: 'Samosa', image: samosa, category: 'Lunch', restaurant: 'Ahmadavadi Tava Fry', price: 25, location: 'Gorwa' },
 
   { name: 'Biryani', image: biryani, category: 'Dinner', restaurant: 'Bombay Biryani', price: 120, location: 'Alkapuri' },
   { name: 'Chinese', image: chines, category: 'Dinner', restaurant: 'Eagle Chinese', price: 100, location: 'Gotri' },
