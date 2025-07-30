@@ -12,7 +12,7 @@ useEffect(() => {
     try {
       const token = localStorage.getItem("token");
       if (!token) return;
-      const res = await axios.get("http://localhost:5000/adminuser", {
+      const res = await axios.get("https://foodie-backend-hfaf.onrender.com/adminuser", {
         headers: { Authorization: `Bearer ${token}` }
       });
       setAdmin(res.data);

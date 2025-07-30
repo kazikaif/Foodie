@@ -14,7 +14,7 @@ useEffect(() => {
     try {
       const token = localStorage.getItem("token");
       if (!token) return;
-      const res = await axios.get("http://localhost:5000/deliveryuser", {
+      const res = await axios.get("https://foodie-backend-hfaf.onrender.com/deliveryuser", {
         headers: { Authorization: `Bearer ${token}` }
       });
       setDeliveryUser(res.data);

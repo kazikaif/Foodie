@@ -41,7 +41,7 @@ function SignUp() {
     };
 
     try {
-      const res = await axios.post("http://localhost:5000/signup", formattedData);
+      const res = await axios.post("https://foodie-backend-hfaf.onrender.com/signup", formattedData);
       alert(res.data);
 
       setForm({

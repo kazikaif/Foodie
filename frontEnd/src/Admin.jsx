@@ -27,7 +27,7 @@ function Admin() {
 
   const fetchUsers = async () => {
     try {
-      const res = await fetch("http://localhost:5000/getAllUsers", {
+      const res = await fetch("https://foodie-backend-hfaf.onrender.com/getAllUsers", {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (res.status === 403) {
